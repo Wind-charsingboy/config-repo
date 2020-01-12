@@ -7,7 +7,7 @@ spring:
     password: 123456
     url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&failOverReadOnly=false
   jpa:
-    show-sql: true
+    show-sql: false
 env: dev
 #将该订单服务注册到eureka上面
 eureka:
