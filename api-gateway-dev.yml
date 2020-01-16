@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    product: /myProduct/**
+  ignored-patterns:
+    - **/product/decreaseStock
